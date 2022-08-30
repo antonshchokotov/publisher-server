@@ -9,7 +9,6 @@ const statusController = require("./controllers/statusController");
 
 const app = express();
 
-// app.use(cors());
 app.use(bodyParser.json());
 
 app.use(ROUTES.SUBSCRIBE, subscribeController);
